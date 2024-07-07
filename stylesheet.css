@@ -1,0 +1,254 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins' , sans-serif;
+}
+body
+{
+    color: #ededed;
+
+}
+.header
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+}
+.logo {
+    position: relative;
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+.navbar a {
+    display: relative;
+    font-size: 25px;
+    color: red;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+.navbar a:hover{
+    color: #0ef;
+}
+.home {
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+    background:purple;
+    background-size: cover;
+    background-position: center;
+    display:flex;
+    align-items: center;
+    padding: 70px 10% 0;
+}
+.home-content {
+    max-width: 600px;
+}
+.home-content h3 {
+    font-size: 32px;
+    font-weight: 700;
+}
+.home-content h1 {
+    font-size: 56px;
+    font-weight: 700;
+    margin: -3px 0;
+}
+.home-content p {
+    font-size: 20px;
+}
+.home-sci a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #0ef;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #0ef;
+    text-decoration: none;
+    margin: 30px 15px 30px 0;
+}
+.home-sci a:hover {
+    background: #0ef;
+    color: #081b29;
+    box-shadow: 0 0 20px #0ef;
+}
+.btn-box {
+    display: inline-block;
+    padding: 12px 28px;
+    background: #0ef;
+    border-radius: 40px;
+    font-size: 16px;
+    color:#081b29;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+}
+.btn-box:hover {
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan, 0 0 50px cyan,
+    0 0 100px cyan, 0 0 200px cyan
+}
+.about {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    align-items: center;
+    grid-gap: 2rem;
+}
+.about-img img{
+    max-width: : 100%;
+    width: 440px;
+    height: auto;
+}
+
+.about-text h2{
+    font-size: var(--h2-font);
+    font-weight: 500;
+    margin: 8px 0px 25px;
+    line-height: 1.5;
+    color: red;
+    text-align: center;
+
+}
+.about-text h3{
+    color: red;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+
+}
+.about-text p{
+    max-width: 550px;
+    font-size: var(--p-font);
+    color: black;
+    line-height: 28px;
+    margin-bottom: 45px;
+    text-align: center;
+    
+} 
+.heading{
+    text-align: center;
+}
+.heading h2{
+    font-size: var(--h2-font);
+    font-weight: 500;
+    margin: 7px 0px 20px;
+    line-height: 1.5;
+    color: black;
+    
+}
+.heading h3{
+    color: red;
+    font-size: 20px;
+    font-weight: 500;
+}
+.skills-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+    grid-gap: 2rem;
+    align-items: center;
+    margin-top: 5rem;
+    text-align: center;
+    cursor: pointer;
+}
+.col {
+    position: relative;
+}
+.col img {
+    max-width: 100%;
+    width: 550px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+
+
+.layer h3 {
+    color: black;
+
+} 
+.contact {
+    background: purple;
+    width: 64%;
+    margin: 100px auto;
+    padding: 70px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 12px;
+    background-size: cover;
+
+}
+.center h3{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 3px;
+    color: red;
+}
+.center p{
+    font-size: var(--p-font);
+    color:#0ef;
+    line-height: 26px;
+    margin-bottom: 25px;
+}
+.contact .action form input[type="email"] {
+    max-width: 100%;
+    width:470px;
+    padding: 12px 15px;
+    background: white;
+    color: var(--text-color);
+    border: none;
+    outline: none;
+    margin: 0 10px 20px 0;
+    border-radius: 30px;
+}
+.contact .action form input[type="submit"] {
+    
+    padding: 12px 40px;
+    background: red;
+    color: var(--text-color);
+    border: none;
+    outline: none;
+    margin: 0 10px 20px 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.ends {
+    text-align: center;
+    padding: 40px;
+}
+.ends p {
+    font-size: var(--p-font);
+    letter-spacing: 1px;
+    color:#0ef;
+}
+@media (max-width: 1425px)
+header{
+    padding: 16px 3%;
+    transition: .3s;
+}
+
+
+
+
+
+
+
